@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e73d4caddd7744d0a06cb3c3fc2aabc9" label="Export Control Request" name="x_1526989_anbo_t_0_export_request" type="collection">
+        <element label="Item Description" mandatory="true" max_length="500" name="item_description" type="string"/>
+        <element label="Requested By" mandatory="true" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Intended Use" mandatory="true" max_length="1000" name="intended_use" type="string"/>
+        <element label="Request Date" mandatory="true" max_length="40" name="request_date" type="glide_date_time"/>
+        <element label="End User" mandatory="true" max_length="200" name="end_user" type="string"/>
+        <element label="Destination Country" mandatory="true" max_length="100" name="destination_country" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Approver Comments" max_length="1000" name="approver_comments" type="string"/>
+        <element choice="3" default="pending" label="Approval Status" max_length="40" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>
