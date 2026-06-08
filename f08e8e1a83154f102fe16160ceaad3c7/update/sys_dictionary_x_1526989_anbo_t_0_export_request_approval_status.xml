@@ -48,6 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-08 02:43:27</sys_created_on>
+        <sys_id>b69d08c6b6ee4414b755516ccef8d51a</sys_id>
         <sys_name>Approval Status</sys_name>
         <sys_package display_value="ANBO_test" source="x_1526989_anbo_t_0">f08e8e1a83154f102fe16160ceaad3c7</sys_package>
         <sys_policy/>

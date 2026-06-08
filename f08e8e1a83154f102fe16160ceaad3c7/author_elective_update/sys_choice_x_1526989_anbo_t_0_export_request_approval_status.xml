@@ -6,6 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-08 02:43:27</sys_created_on>
+            <sys_id>ab60a288e0274bd8a34c018da7dbcffc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>approval_status</sys_name>
             <sys_package display_value="ANBO_test" source="x_1526989_anbo_t_0">f08e8e1a83154f102fe16160ceaad3c7</sys_package>
@@ -29,6 +30,7 @@
             <sys_created_on>2026-06-08 02:43:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>a620e13404a4494685f70a38d5c3a78e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-08 02:43:27</sys_updated_on>
@@ -48,6 +50,7 @@
             <sys_created_on>2026-06-08 02:43:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8b24c20d4a341ba9c67f6eabfffb8d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-08 02:43:27</sys_updated_on>
@@ -67,6 +70,7 @@
             <sys_created_on>2026-06-08 02:43:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ee82a658673496c843dd3a685aa47c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-08 02:43:27</sys_updated_on>
