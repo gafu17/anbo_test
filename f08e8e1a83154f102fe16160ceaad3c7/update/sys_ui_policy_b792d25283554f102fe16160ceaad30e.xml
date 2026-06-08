@@ -18,7 +18,7 @@
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	g_form.showFieldMsg('field_name', 'Russiaが入力されました', 'info');
+	g_form.showFieldMsg('field_name', 'Russiaが入力されました。。。。。。。。', 'info');
 }]]></script_true>
         <set_values/>
         <short_description>for testing to connect with github</short_description>
