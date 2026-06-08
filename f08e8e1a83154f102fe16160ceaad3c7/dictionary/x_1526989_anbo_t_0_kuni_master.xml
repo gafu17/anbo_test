@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ce228b1283d94f102fe16160ceaad3f3" label="kuni master" max_length="40" name="x_1526989_anbo_t_0_kuni_master" type="collection">
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="Area" max_length="40" name="area" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AsiaPacific" sequence="0" value="ap"/>
+                <element inactive_on_update="false" label="Americas" sequence="1" value="americas"/>
+                <element inactive_on_update="false" label="EMEA" sequence="2" value="emea"/>
+            </choice>
+        </element>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Code" max_length="40" name="code" type="string"/>
         <index name="index">
