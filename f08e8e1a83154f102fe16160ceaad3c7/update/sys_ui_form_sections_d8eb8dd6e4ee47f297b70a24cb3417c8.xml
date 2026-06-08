@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="d8eb8dd6e4ee47f297b70a24cb3417c8" sys_domain="global" table="x_1526989_anbo_t_0_export_request">
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>0</position>
+      <sys_id>6687052222854edebf949e5c91961c72</sys_id>
+      <sys_ui_form display_value="x_1526989_anbo_t_0_export_request" name="x_1526989_anbo_t_0_export_request" sys_domain="global" view="Default view">d8eb8dd6e4ee47f297b70a24cb3417c8</sys_ui_form>
+      <sys_ui_section caption="General" display_value="General" name="x_1526989_anbo_t_0_export_request" sys_domain="global" view="Default view">9d72924b2b4d4b7e8bcfffceeb37ca9a</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE">
+      <name>x_1526989_anbo_t_0_export_request</name>
+      <roles/>
+      <sys_id>d8eb8dd6e4ee47f297b70a24cb3417c8</sys_id>
+      <sys_scope display_value="x_1526989_anbo_t_0">f08e8e1a83154f102fe16160ceaad3c7</sys_scope>
+      <sys_user/>
+      <view>Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE">
+    <sys_id>33f1699994ef4d28b2130a791612961b</sys_id>
+    <sys_scope display_value="x_1526989_anbo_t_0">f08e8e1a83154f102fe16160ceaad3c7</sys_scope>
+    <sys_update_name>sys_number_33f1699994ef4d28b2130a791612961b</sys_update_name>
+    <category>x_1526989_anbo_t_0_export_request</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1000</number>
+    <prefix>ECR</prefix>
+  </sys_number>
+</record_update>
